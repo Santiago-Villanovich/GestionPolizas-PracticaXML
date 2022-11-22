@@ -23,5 +23,12 @@ namespace Modelo2doParcialXML
             formu.MdiParent = this;
             formu.Show();
         }
+
+        private void informesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormInformes formu = new FormInformes();
+            formu.MdiParent = this;
+            formu.Show();
+        }
     }
 }
